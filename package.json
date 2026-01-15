@@ -15,5 +15,10 @@
     "url": "https://github.com/nasifshah548/Music-Fest-Site/issues"
   },
   "homepage": "https://github.com/nasifshah548/Music-Fest-Site#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  }
 }
