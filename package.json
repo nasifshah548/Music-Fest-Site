@@ -1,21 +1,23 @@
 {
   "name": "music-fest-site",
   "version": "1.0.0",
+  "description": "Modern, responsive music festival website built to showcase Tailwind CSS skills",
   "main": "index.js",
   "scripts": {
+    "tw:build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "tw:version": "npx tailwindcss --help | findstr tailwindcss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nasifshah548/Music-Fest-Site.git"
   },
-  "author": "",
+  "author": "Nasif Shah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nasifshah548/Music-Fest-Site/issues"
   },
   "homepage": "https://github.com/nasifshah548/Music-Fest-Site#readme",
-  "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.23",
     "postcss": "^8.5.6",
